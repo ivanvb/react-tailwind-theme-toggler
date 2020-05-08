@@ -1,0 +1,18 @@
+:root {
+    --primary-light-background: #edf2f6;
+    --secondary-light-background: #ffffff;
+    --primary-dark-background: #2e3748;
+    --secondary-dark-background: #1a202c;
+    --primary-background: var(--primary-light-background);
+    --secondary-background: var(--secondary-light-background);
+    --text-color: var(--secondary-dark-background);
+}
+
+@tailwind base;
+
+@tailwind components;
+
+.fade {
+}
+
+@tailwind utilities;
