@@ -42,7 +42,7 @@ const ThemeToggle = () => {
             />
 
             <span
-                className={`text-center text-sm flex-shrink ml-auto absolute ${
+                className={`text-center text-sm flex-shrink ml-auto absolute top-50 -translate-y-1/2 ${
                     darkMode ? 'ml-1/4 left-0' : 'right-0 mr-1/4'
                 }`}
                 role="img"

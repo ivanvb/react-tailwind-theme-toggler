@@ -12,7 +12,12 @@
 
 @tailwind components;
 
-.fade {
+.top-50 {
+    top: 50%;
 }
 
 @tailwind utilities;
+
+.-translate-y-1\/2 {
+    transform: translateY(-50%);
+}
