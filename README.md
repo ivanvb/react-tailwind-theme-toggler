@@ -4,9 +4,10 @@ This is a prove of concept on how to switch themes using Tailwind and React (eve
 
 ## How?
 
-To achieve this I used CSS variables. As stated [here](), Tailwind allows to set colors based on a CSS variable. So I set the background primary, secondary and text color to a CSS variable and then changed its color from a React Component.
+To achieve this I used CSS variables. As stated [here](https://tailwindcss.com/docs/customizing-colors/#naming-your-colors), Tailwind allows to set colors based on a CSS variable. So I set the background primary, secondary and text color to a CSS variable and then changed its color from a React Component.
 
 ---
+
 Also, I tried to emulate [Create React App](https://create-react-app.dev/docs/getting-started/) theme switcher toggle.
 
 ![](images/toggle.jpg)
