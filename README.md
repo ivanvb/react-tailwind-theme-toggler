@@ -8,7 +8,7 @@ To achieve this I used CSS variables. As stated [here](https://tailwindcss.com/d
 
 ---
 
-Also, I tried to emulate [Create React App](https://create-react-app.dev/docs/getting-started/) theme switcher toggle.
+Also, I tried to emulate [Create React App's](https://create-react-app.dev/docs/getting-started/) theme switcher toggle.
 
 ![](images/toggle.jpg)
 <sup style="font-style:italic">Create React App's version</sup>
