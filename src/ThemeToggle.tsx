@@ -4,6 +4,7 @@ interface Styles {
     primary: string;
     secondary: string;
     text: string;
+    textHover: string;
 }
 
 function changeTheme(dark: boolean) {
@@ -12,17 +13,20 @@ function changeTheme(dark: boolean) {
         primary: documentStyles.getPropertyValue('--primary-dark-background'),
         secondary: documentStyles.getPropertyValue('--secondary-dark-background'),
         text: documentStyles.getPropertyValue('--secondary-light-background'),
+        textHover: documentStyles.getPropertyValue('--primary-light-background'),
     };
 
     const lightStyles: Styles = {
         primary: documentStyles.getPropertyValue('--primary-light-background'),
         secondary: documentStyles.getPropertyValue('--secondary-light-background'),
         text: documentStyles.getPropertyValue('--secondary-dark-background'),
+        textHover: documentStyles.getPropertyValue('--primary-dark-background'),
     };
     const theme: Styles = dark ? darkStyles : lightStyles;
     document.documentElement.style.setProperty('--primary-background', theme.primary);
     document.documentElement.style.setProperty('--secondary-background', theme.secondary);
     document.documentElement.style.setProperty('--text-color', theme.text);
+    document.documentElement.style.setProperty('--text-color-hover', theme.textHover);
 }
 const ThemeToggle = () => {
     const [darkMode, setDarkMode] = useState(false);

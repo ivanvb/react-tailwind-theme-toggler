@@ -1,5 +1,6 @@
 import React from 'react';
 import ThemeToggle from './ThemeToggle';
+import GithubLink from './GithubLink';
 
 function App() {
     return (
@@ -42,6 +43,9 @@ function App() {
                     mollis tellus. In ac commodo nunc, in auctor est. Donec lacus diam, interdum vel
                     odio a, mattis auctor mi.
                 </p>
+            </div>
+            <div className="pt-4 md:pt-8 md:-mb-4 flex justify-center w-full">
+                <GithubLink />
             </div>
         </div>
     );

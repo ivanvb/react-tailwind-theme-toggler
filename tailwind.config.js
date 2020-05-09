@@ -11,6 +11,7 @@ module.exports = {
                 primary: 'var(--primary-background)',
                 secondary: 'var(--secondary-background)',
                 contrast: 'var(--text-color)',
+                'contrast-hover': 'var(--text-color-hover)',
             },
             spacing: {
                 '1/4': '0.0625rem',
