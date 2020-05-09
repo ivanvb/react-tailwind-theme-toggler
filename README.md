@@ -15,3 +15,7 @@ Also, I tried to emulate [Create React App](https://create-react-app.dev/docs/ge
 
 ![](images/my-toggle.jpg)
 <sup style="font-style:italic">My version</sup>
+
+---
+
+Check it out [here](https://ivb98.github.io/react-tailwind-theme-toggler/)!
